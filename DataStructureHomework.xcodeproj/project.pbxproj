@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45034B0A1941B8C000A0622C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45034B091941B8C000A0622C /* Cocoa.framework */; };
+		45034B141941B8C000A0622C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45034B121941B8C000A0622C /* InfoPlist.strings */; };
+		45034B161941B8C000A0622C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45034B151941B8C000A0622C /* main.m */; };
+		45034B1A1941B8C000A0622C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 45034B181941B8C000A0622C /* Credits.rtf */; };
+		45034B1D1941B8C000A0622C /* DSHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45034B1C1941B8C000A0622C /* DSHAppDelegate.m */; };
+		45034B201941B8C000A0622C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45034B1E1941B8C000A0622C /* MainMenu.xib */; };
+		45034B221941B8C000A0622C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45034B211941B8C000A0622C /* Images.xcassets */; };
+		45034B291941B8C000A0622C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45034B281941B8C000A0622C /* XCTest.framework */; };
+		45034B2A1941B8C000A0622C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45034B091941B8C000A0622C /* Cocoa.framework */; };
+		45034B321941B8C000A0622C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45034B301941B8C000A0622C /* InfoPlist.strings */; };
+		45034B341941B8C000A0622C /* DataStructureHomeworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45034B331941B8C000A0622C /* DataStructureHomeworkTests.m */; };
+		45034B3F1941B8F500A0622C /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 45034B3E1941B8F500A0622C /* Config.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45034B2B1941B8C000A0622C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45034AFE1941B8C000A0622C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45034B051941B8C000A0622C;
+			remoteInfo = DataStructureHomework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45034B061941B8C000A0622C /* DataStructureHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataStructureHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45034B091941B8C000A0622C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		45034B0C1941B8C000A0622C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		45034B0D1941B8C000A0622C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		45034B0E1941B8C000A0622C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		45034B111941B8C000A0622C /* DataStructureHomework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DataStructureHomework-Info.plist"; sourceTree = "<group>"; };
+		45034B131941B8C000A0622C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45034B151941B8C000A0622C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45034B171941B8C000A0622C /* DataStructureHomework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DataStructureHomework-Prefix.pch"; sourceTree = "<group>"; };
+		45034B191941B8C000A0622C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		45034B1B1941B8C000A0622C /* DSHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSHAppDelegate.h; sourceTree = "<group>"; };
+		45034B1C1941B8C000A0622C /* DSHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSHAppDelegate.m; sourceTree = "<group>"; };
+		45034B1F1941B8C000A0622C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		45034B211941B8C000A0622C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		45034B271941B8C000A0622C /* DataStructureHomeworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataStructureHomeworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45034B281941B8C000A0622C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		45034B2F1941B8C000A0622C /* DataStructureHomeworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DataStructureHomeworkTests-Info.plist"; sourceTree = "<group>"; };
+		45034B311941B8C000A0622C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45034B331941B8C000A0622C /* DataStructureHomeworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataStructureHomeworkTests.m; sourceTree = "<group>"; };
+		45034B3D1941B8F500A0622C /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		45034B3E1941B8F500A0622C /* Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Config.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45034B031941B8C000A0622C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45034B0A1941B8C000A0622C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45034B241941B8C000A0622C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45034B2A1941B8C000A0622C /* Cocoa.framework in Frameworks */,
+				45034B291941B8C000A0622C /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45034AFD1941B8C000A0622C = {
+			isa = PBXGroup;
+			children = (
+				45034B0F1941B8C000A0622C /* DataStructureHomework */,
+				45034B2D1941B8C000A0622C /* DataStructureHomeworkTests */,
+				45034B081941B8C000A0622C /* Frameworks */,
+				45034B071941B8C000A0622C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45034B071941B8C000A0622C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45034B061941B8C000A0622C /* DataStructureHomework.app */,
+				45034B271941B8C000A0622C /* DataStructureHomeworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45034B081941B8C000A0622C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45034B091941B8C000A0622C /* Cocoa.framework */,
+				45034B281941B8C000A0622C /* XCTest.framework */,
+				45034B0B1941B8C000A0622C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45034B0B1941B8C000A0622C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45034B0C1941B8C000A0622C /* AppKit.framework */,
+				45034B0D1941B8C000A0622C /* CoreData.framework */,
+				45034B0E1941B8C000A0622C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		45034B0F1941B8C000A0622C /* DataStructureHomework */ = {
+			isa = PBXGroup;
+			children = (
+				45034B1B1941B8C000A0622C /* DSHAppDelegate.h */,
+				45034B1C1941B8C000A0622C /* DSHAppDelegate.m */,
+				45034B1E1941B8C000A0622C /* MainMenu.xib */,
+				45034B211941B8C000A0622C /* Images.xcassets */,
+				45034B101941B8C000A0622C /* Supporting Files */,
+			);
+			path = DataStructureHomework;
+			sourceTree = "<group>";
+		};
+		45034B101941B8C000A0622C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45034B111941B8C000A0622C /* DataStructureHomework-Info.plist */,
+				45034B121941B8C000A0622C /* InfoPlist.strings */,
+				45034B151941B8C000A0622C /* main.m */,
+				45034B171941B8C000A0622C /* DataStructureHomework-Prefix.pch */,
+				45034B181941B8C000A0622C /* Credits.rtf */,
+				45034B3D1941B8F500A0622C /* Config.h */,
+				45034B3E1941B8F500A0622C /* Config.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45034B2D1941B8C000A0622C /* DataStructureHomeworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				45034B331941B8C000A0622C /* DataStructureHomeworkTests.m */,
+				45034B2E1941B8C000A0622C /* Supporting Files */,
+			);
+			path = DataStructureHomeworkTests;
+			sourceTree = "<group>";
+		};
+		45034B2E1941B8C000A0622C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45034B2F1941B8C000A0622C /* DataStructureHomeworkTests-Info.plist */,
+				45034B301941B8C000A0622C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45034B051941B8C000A0622C /* DataStructureHomework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45034B371941B8C000A0622C /* Build configuration list for PBXNativeTarget "DataStructureHomework" */;
+			buildPhases = (
+				45034B021941B8C000A0622C /* Sources */,
+				45034B031941B8C000A0622C /* Frameworks */,
+				45034B041941B8C000A0622C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataStructureHomework;
+			productName = DataStructureHomework;
+			productReference = 45034B061941B8C000A0622C /* DataStructureHomework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45034B261941B8C000A0622C /* DataStructureHomeworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45034B3A1941B8C000A0622C /* Build configuration list for PBXNativeTarget "DataStructureHomeworkTests" */;
+			buildPhases = (
+				45034B231941B8C000A0622C /* Sources */,
+				45034B241941B8C000A0622C /* Frameworks */,
+				45034B251941B8C000A0622C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45034B2C1941B8C000A0622C /* PBXTargetDependency */,
+			);
+			name = DataStructureHomeworkTests;
+			productName = DataStructureHomeworkTests;
+			productReference = 45034B271941B8C000A0622C /* DataStructureHomeworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45034AFE1941B8C000A0622C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DSH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Astrian Zheng";
+				TargetAttributes = {
+					45034B261941B8C000A0622C = {
+						TestTargetID = 45034B051941B8C000A0622C;
+					};
+				};
+			};
+			buildConfigurationList = 45034B011941B8C000A0622C /* Build configuration list for PBXProject "DataStructureHomework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45034AFD1941B8C000A0622C;
+			productRefGroup = 45034B071941B8C000A0622C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45034B051941B8C000A0622C /* DataStructureHomework */,
+				45034B261941B8C000A0622C /* DataStructureHomeworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45034B041941B8C000A0622C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45034B141941B8C000A0622C /* InfoPlist.strings in Resources */,
+				45034B221941B8C000A0622C /* Images.xcassets in Resources */,
+				45034B1A1941B8C000A0622C /* Credits.rtf in Resources */,
+				45034B201941B8C000A0622C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45034B251941B8C000A0622C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45034B321941B8C000A0622C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45034B021941B8C000A0622C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45034B1D1941B8C000A0622C /* DSHAppDelegate.m in Sources */,
+				45034B3F1941B8F500A0622C /* Config.m in Sources */,
+				45034B161941B8C000A0622C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45034B231941B8C000A0622C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45034B341941B8C000A0622C /* DataStructureHomeworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45034B2C1941B8C000A0622C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45034B051941B8C000A0622C /* DataStructureHomework */;
+			targetProxy = 45034B2B1941B8C000A0622C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45034B121941B8C000A0622C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45034B131941B8C000A0622C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		45034B181941B8C000A0622C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45034B191941B8C000A0622C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		45034B1E1941B8C000A0622C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45034B1F1941B8C000A0622C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		45034B301941B8C000A0622C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45034B311941B8C000A0622C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45034B351941B8C000A0622C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		45034B361941B8C000A0622C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		45034B381941B8C000A0622C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DataStructureHomework/DataStructureHomework-Prefix.pch";
+				INFOPLIST_FILE = "DataStructureHomework/DataStructureHomework-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		45034B391941B8C000A0622C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DataStructureHomework/DataStructureHomework-Prefix.pch";
+				INFOPLIST_FILE = "DataStructureHomework/DataStructureHomework-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		45034B3B1941B8C000A0622C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DataStructureHomework.app/Contents/MacOS/DataStructureHomework";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DataStructureHomework/DataStructureHomework-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DataStructureHomeworkTests/DataStructureHomeworkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		45034B3C1941B8C000A0622C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DataStructureHomework.app/Contents/MacOS/DataStructureHomework";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DataStructureHomework/DataStructureHomework-Prefix.pch";
+				INFOPLIST_FILE = "DataStructureHomeworkTests/DataStructureHomeworkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45034B011941B8C000A0622C /* Build configuration list for PBXProject "DataStructureHomework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45034B351941B8C000A0622C /* Debug */,
+				45034B361941B8C000A0622C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45034B371941B8C000A0622C /* Build configuration list for PBXNativeTarget "DataStructureHomework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45034B381941B8C000A0622C /* Debug */,
+				45034B391941B8C000A0622C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45034B3A1941B8C000A0622C /* Build configuration list for PBXNativeTarget "DataStructureHomeworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45034B3B1941B8C000A0622C /* Debug */,
+				45034B3C1941B8C000A0622C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45034AFE1941B8C000A0622C /* Project object */;
+}
